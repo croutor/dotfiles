@@ -16,3 +16,9 @@ shopt -s checkwinsize
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+
+# https://powerline.readthedocs.io/en/latest/usage/shell-prompts.html#bash-prompt
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
