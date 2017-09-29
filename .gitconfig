@@ -1,0 +1,7 @@
+[user]
+	name = Croutor
+	email = croutor@XXX.com
+[merge]
+	tool = meld
+[diff]
+	guitool = meld
